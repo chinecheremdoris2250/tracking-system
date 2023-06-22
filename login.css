@@ -1,0 +1,93 @@
+body {
+    background-image: url(img/workplace1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  /* LOGIN PAGE */
+  
+  .login-box {
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2);
+    margin-top: 10%;
+    color: #191970;
+    background-color: #fff;
+  }
+  
+  .login-box h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 4px solid #191970;
+    margin-bottom: 50px;
+    padding: 13px;
+  }
+  
+  .textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    border-bottom: 1px solid #191970;
+  }
+  
+  .fa {
+    float: left;
+    margin-top: 7px;
+  }
+  
+  input::placeholder {
+    margin-left: 20px;
+  }
+  
+  .textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    float: left;
+    margin: 10px 0 0 0;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 8px;
+    color: #ffffff;
+    background: none #191970;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 576px) {
+    body {
+      background-image: none;
+    }
+  
+    .login-box {
+      width: 80%;
+      margin: 10% auto;
+      height: 75vh;
+    }
+  
+    .login-box h1 {
+      font-size: 30px;
+    }
+  
+    .textbox {
+      font-size: 16px;
+    }
+  
+    .textbox input {
+      font-size: 14px;
+    }
+  
+    .button {
+      font-size: 14px;
+    }
+  }
+  
